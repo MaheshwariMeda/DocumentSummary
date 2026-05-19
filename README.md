@@ -9,7 +9,7 @@
 - Integrated Gemini API with LangChain for LLM-based responses
 - Added SQLite support for storing and managing document/query data
 - Created an interactive Gradio interface for easy user interaction
-- Designed the project to solve a real-world problem: quickly understanding long documents
+- Designed the project to solve a real-world problem: quickly understanding long documents.
 
 ---
 
