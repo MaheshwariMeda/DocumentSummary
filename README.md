@@ -1,6 +1,15 @@
 # 🤖 Smart Document Q&A Assistant
 ### RAG (Retrieval-Augmented Generation) Application
 #### Built with Gemini API · ChromaDB · SQLite · Gradio · LangChain
+## Recruiter Highlights
+
+- Built an end-to-end AI Document Q&A Assistant using Retrieval-Augmented Generation (RAG)
+- Implemented document summarization and context-aware question answering
+- Used embeddings and ChromaDB for semantic search and document retrieval
+- Integrated Gemini API with LangChain for LLM-based responses
+- Added SQLite support for storing and managing document/query data
+- Created an interactive Gradio interface for easy user interaction
+- Designed the project to solve a real-world problem: quickly understanding long documents
 
 ---
 
