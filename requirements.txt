@@ -1,0 +1,39 @@
+# ============================================================
+# Smart Document Q&A Assistant — Requirements
+# ============================================================
+# Install all at once:
+#   pip install -r requirements.txt
+#
+# In Google Colab, prefix each line with !pip install
+# ============================================================
+
+# ── Google Gemini API ──────────────────────────────────────
+google-generativeai>=0.7.0          # Gemini LLM + Embeddings
+
+# ── Vector Database ────────────────────────────────────────
+chromadb>=0.5.0                     # Persistent vector store
+
+# ── Gradio Frontend ────────────────────────────────────────
+gradio>=4.0.0                       # Chat interface & file upload
+
+# ── PDF Parsing ────────────────────────────────────────────
+pymupdf>=1.23.0                     # PDF text extraction (fitz)
+
+# ── LangChain Text Splitting ───────────────────────────────
+langchain>=0.2.0                    # Core LangChain
+langchain-community>=0.2.0          # Extended tools
+langchain-text-splitters>=0.2.0     # RecursiveCharacterTextSplitter
+
+# ── Utilities ─────────────────────────────────────────────
+python-dotenv>=1.0.0                # .env file support (optional)
+
+# ── Data Analysis (for analytics cells) ───────────────────
+pandas>=2.0.0                       # DataFrame inspection of SQLite logs
+
+# ── Standard Library (no install needed) ──────────────────
+# sqlite3   — built into Python
+# hashlib   — built into Python
+# getpass   — built into Python
+# datetime  — built into Python
+# textwrap  — built into Python
+# uuid      — built into Python
